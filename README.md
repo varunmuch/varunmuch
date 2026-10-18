@@ -1,75 +1,56 @@
-# Hey, I'm Varun 👋
+<div align="center">
 
-### Software Engineer | AI Infrastructure • LLM Inference • Backend Systems
+# Varun Muchanapally
+### Software Engineer · AI Infrastructure & Backend Systems
 
-I'm a software engineer with an M.S. in Computer Science from the University of Central Florida (3.9 GPA). I enjoy building backend services, exploring how LLMs work beneath the API layer, and turning systems concepts into working projects.
+**I build things that make complex systems easier to understand—and measure.**
 
-My current focus is **LLM inference, KV caching, GPU programming, and performance-aware AI infrastructure**.
+[Explore my work](https://varunmuch.github.io/Portfolio-space/) · [LinkedIn](https://www.linkedin.com/in/varun-pm/) · [Email](mailto:varunmuchanapally@gmail.com)
 
-## 🔭 What I'm Exploring
+</div>
 
-- **LLM inference:** Prefill, token generation, attention, and KV-cache management
-- **AI systems:** Request scheduling, batching, latency, throughput, and memory tradeoffs
-- **GPU computing:** CUDA fundamentals, parallel programming, and performance profiling
-- **Backend engineering:** APIs, data pipelines, reliability, and observability
-- **Applied AI:** Retrieval-augmented generation, model integration, and evaluation
+---
 
-## 🚀 Selected Projects
+## Start here: KV Playground
 
-### ⚡ [KV Playground](https://github.com/varunmuch/KV-Playground)
-**Interactive KV-cache learning and benchmarking**
+**What does an LLM actually save when it caches your prompt?**
 
-Follow a prompt through tokenization and autoregressive generation, explore different KV-cache layouts, and compare inference methods with a real language model.
+[KV Playground](https://github.com/varunmuch/KV-Playground) follows a real prompt from tokenization through generation, then lets you explore the memory and latency tradeoffs yourself.
 
-`Python` · `PyTorch` · `Hugging Face Transformers` · `React` · `TypeScript`
+<a href="https://github.com/varunmuch/KV-Playground"><img src="https://raw.githubusercontent.com/varunmuch/KV-Playground/main/docs/screenshots/learn.png" alt="KV Playground: interactive lessons following a prompt through a language model" width="880"></a>
 
-### 🌪️ [Hurricane Simulator](https://github.com/varunmuch/Hurricane-Simulator)
-A simulation project with a [separate frontend](https://github.com/varunmuch/Hurricane-Simulator-Frontend).
-
-### 📈 [Yield Curve Prediction](https://github.com/varunmuch/Yield-Curve-Prediciton)
-An exploratory machine-learning project using FRED macroeconomic indicators and XGBoost to investigate the U.S. Treasury 10Y–2Y yield spread.
-
-`Python` · `XGBoost` · `scikit-learn` · `Pandas`
-
-### 🧠 [Algorithm Visualizer](https://github.com/varunmuch/Algorithm-Visualizer)
-A React-based interface for exploring algorithms and data structures.
-
-### 🎙️ [Professor VRX](https://github.com/varunmuch/Professor-VRX)
-A multilingual explanation and text-to-speech app using Flask, Gemini, Google Cloud Text-to-Speech, and Three.js.
-
-## 🛠️ Tools & Technologies
-
-| Area | Technologies |
+| Explore | Inspect |
 | --- | --- |
-| Languages | Python, C++, C#, TypeScript, JavaScript, SQL |
-| Backend | FastAPI, Flask, REST APIs, PostgreSQL |
-| AI / ML | PyTorch, TensorFlow, Hugging Face, scikit-learn |
-| AI applications | RAG, LangGraph, LLM APIs |
-| Cloud & infrastructure | AWS, Azure, Docker, Kubernetes, GitHub Actions |
-| Frontend | React, TypeScript, HTML, CSS |
-| Learning now | CUDA, LLM serving, GPU optimization, inference scheduling |
+| **Learn** — tokenization, prefill, decoding and KV caching | Seven guided chapters using Qwen3.5-0.8B |
+| **Experiment** — dynamic, static, paged and shared-prefix layouts | Interactive memory simulations; paged allocation is simulated |
+| **Measure** — no cache, dynamic cache, static cache and prefix reuse | Real-model timing loops, memory measurements and JSON exports |
 
-## 📚 Learning in Public
+**Built with:** Python · PyTorch · Transformers · FastAPI · React · TypeScript · Docker
 
-I like asking practical systems questions and exploring them through code:
+[Read the implementation](https://github.com/varunmuch/KV-Playground/tree/main/engine) · [Inspect recorded results](https://github.com/varunmuch/KV-Playground/tree/main/docs/results) · [Run it locally](https://github.com/varunmuch/KV-Playground#setup)
 
-- What happens between an LLM request and its first token?
-- Why does KV caching speed up autoregressive generation?
-- How do inference servers manage concurrent requests and GPU memory?
-- When does inference become memory-bound rather than compute-bound?
-- How can batching and scheduling improve serving performance?
+## More of my work
 
-## 🎓 Education
+| Project | What to explore |
+| --- | --- |
+| [Algorithm Visualizer](https://github.com/varunmuch/Algorithm-Visualizer) | React interfaces for sorting and pathfinding |
+| [Professor VRX](https://github.com/varunmuch/Professor-VRX) | Multilingual explanations combining Gemini, Flask and text-to-speech |
+| [Hurricane Simulator](https://github.com/varunmuch/Hurricane-Simulator) | Simulation backend with a [separate frontend](https://github.com/varunmuch/Hurricane-Simulator-Frontend) |
+| [Yield Curve Prediction](https://github.com/varunmuch/Yield-Curve-Prediciton) | Exploratory machine learning on macroeconomic data |
+| [CUDA learning lab](https://github.com/varunmuch/CUDA) | My experiments with explicit and unified GPU memory management |
 
-**M.S. in Computer Science** — University of Central Florida (GPA: 3.9/4.0)  
-**B.Tech in Computer Science** — BV Raju Institute of Technology
+## What I'm working toward
 
-## 🤝 Connect
+My focus is **software engineering for AI systems**: inference, memory management, scheduling, backend APIs and performance measurement. I learn by building a working system, inspecting its behavior, and documenting the tradeoffs.
 
-I'm interested in software engineering, AI infrastructure, and ML systems opportunities.
+**Core tools:** Python, C++, TypeScript, SQL, FastAPI, Flask, PyTorch, React and Docker.  
+**Currently exploring:** CUDA, LLM serving and inference scheduling.
 
-- [LinkedIn](https://www.linkedin.com/in/varun-pm/)
-- [Portfolio](https://varunmuch.github.io/Portfolio-space/)
-- **Email:** varunmuchanapally@gmail.com
+## Background & opportunities
 
-*Building systems, measuring tradeoffs, and learning in public.*
+**M.S. Computer Science, University of Central Florida** · GPA 3.9/4.0  
+**B.Tech Computer Science, BV Raju Institute of Technology**
+
+I'm interested in **software engineering, backend and AI infrastructure opportunities**.
+
+Have a systems problem worth building around? [Let's talk](mailto:varunmuchanapally@gmail.com).
