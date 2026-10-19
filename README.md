@@ -11,28 +11,11 @@
 
 ---
 
-## Start here: KV Playground
-
-**What does an LLM actually save when it caches your prompt?**
-
-[KV Playground](https://github.com/varunmuch/KV-Playground) follows a real prompt from tokenization through generation, then lets you explore the memory and latency tradeoffs yourself.
-
-<a href="https://github.com/varunmuch/KV-Playground"><img src="https://raw.githubusercontent.com/varunmuch/KV-Playground/main/docs/screenshots/learn.png" alt="KV Playground: interactive lessons following a prompt through a language model" width="880"></a>
-
-| Explore | Inspect |
-| --- | --- |
-| **Learn** — tokenization, prefill, decoding and KV caching | Seven guided chapters using Qwen3.5-0.8B |
-| **Experiment** — dynamic, static, paged and shared-prefix layouts | Interactive memory simulations; paged allocation is simulated |
-| **Measure** — no cache, dynamic cache, static cache and prefix reuse | Real-model timing loops, memory measurements and JSON exports |
-
-**Built with:** Python · PyTorch · Transformers · FastAPI · React · TypeScript · Docker
-
-[Read the implementation](https://github.com/varunmuch/KV-Playground/tree/main/engine) · [Inspect recorded results](https://github.com/varunmuch/KV-Playground/tree/main/docs/results) · [Run it locally](https://github.com/varunmuch/KV-Playground#setup)
-
-## More of my work
 
 | Project | What to explore |
 | --- | --- |
+
+[KV Playground](https://github.com/varunmuch/KV-Playground) follows a real prompt from tokenization through generation, then lets you explore the memory and latency tradeoffs yourself.
 | [Algorithm Visualizer](https://github.com/varunmuch/Algorithm-Visualizer) | React interfaces for sorting and pathfinding |
 | [Professor VRX](https://github.com/varunmuch/Professor-VRX) | Multilingual explanations combining Gemini, Flask and text-to-speech |
 | [Hurricane Simulator](https://github.com/varunmuch/Hurricane-Simulator) | Simulation backend with a [separate frontend](https://github.com/varunmuch/Hurricane-Simulator-Frontend) |
