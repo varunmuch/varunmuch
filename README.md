@@ -29,11 +29,6 @@ My focus is **software engineering for AI systems**: inference, memory managemen
 **Core tools:** Python, C++, TypeScript, SQL, FastAPI, Flask, PyTorch, React and Docker.  
 **Currently exploring:** CUDA, LLM serving and inference scheduling.
 
-## Background & opportunities
-
-**M.S. Computer Science, University of Central Florida** · GPA 3.9/4.0  
-**B.Tech Computer Science, BV Raju Institute of Technology**
-
 I'm interested in **software engineering, backend and AI infrastructure opportunities**.
 
 Have a systems problem worth building around? [Let's talk](mailto:varunmuchanapally@gmail.com).
