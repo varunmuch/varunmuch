@@ -1,6 +1,6 @@
 <div align="center">
 
-# Varun Muchanapally
+# Varun M
 ### Software Engineer · AI Infrastructure & Backend Systems
 
 **I build things that make complex systems easier to understand—and measure.**
